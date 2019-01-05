@@ -1,0 +1,83 @@
+#query {
+  height: auto;
+  width: 100%;
+}
+
+#search-button {
+  padding: 15px 40px;
+  font-size: 1.2em;
+  // 背景色を黒に指定
+  background-color: #000;
+  // 文字色を白に指定
+  color: #fff;
+  // submitボタンのを枠を非表示にす
+  border-style: none;
+  width: 100%;
+}
+
+.query-result{
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.thumbs {
+  position: relative;
+  float: left:
+  margin-right: 10px;
+}
+
+.video-info {
+  overflow: hidden;
+  float:right;
+}
+
+.video {
+  display: flex;
+  background: #eee;
+  padding: 10px;
+  overflow: hidden;
+  margin: 5px 5px;
+}
+
+.thumbnail {
+  height: 135px;
+  width: 230px;
+}
+
+.videos {
+  background: #FFF;
+  padding: 10px;
+  overflow: hidden;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.timestamp{
+  color: #990000;
+  font-size: 1;
+}
+
+.description {
+  font-size: 4;
+}
+
+.list {
+  float:right;
+}
+
+.list li{
+  display: inline;
+  background-color: #eee;
+  margin: 5px 5px;
+  color: #0011ff;
+}
+
+.load {
+  display: none;
+  text-align: center;
+  background: #eee;
+  padding: 10px;
+  overflow: hidden;
+  margin: 10px 10px;
+}
